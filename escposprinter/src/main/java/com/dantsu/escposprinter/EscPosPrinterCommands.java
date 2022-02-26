@@ -21,8 +21,9 @@ import com.google.zxing.qrcode.encoder.QRCode;
 public class EscPosPrinterCommands {
 
     public static final byte LF = 0x0A;
-
+CANCEL_CHINESE
     public static final byte[] RESET_PRINTER = new byte[]{0x1B, 0x40};
+    public static final byte[] CANCEL_CHINESE = new byte[]{0x1C, 0x2E};
 
     public static final byte[] TEXT_ALIGN_LEFT = new byte[]{0x1B, 0x61, 0x00};
     public static final byte[] TEXT_ALIGN_CENTER = new byte[]{0x1B, 0x61, 0x01};
