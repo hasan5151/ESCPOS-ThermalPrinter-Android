@@ -255,7 +255,6 @@ public class EscPosPrinterCommands {
         if (!this.printerConnection.isConnected()) {
             return this;
         }
-        super.reset();
         this.printerConnection.write(EscPosPrinterCommands.CANCEL_CHINESE);
         return this;
     }
