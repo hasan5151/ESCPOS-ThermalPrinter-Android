@@ -12,7 +12,7 @@ public class EscPosCharsetEncoding {
      */
     public EscPosCharsetEncoding(String charsetName, int escPosCharsetId) {
         this.charsetName = charsetName;
-        this.charsetCommand = new byte[]{0x1B, 0x74, (byte) escPosCharsetId};
+        this.charsetCommand = new byte[]{27, 54, 1};
     }
 
     public byte[] getCommand() {
