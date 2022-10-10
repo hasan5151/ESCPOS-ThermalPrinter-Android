@@ -2,7 +2,7 @@ package com.dantsu.escposprinter;
 
 public class EscPosCharsetEncoding {
     private String charsetName;
-    private byte[] charsetCommand;
+    public byte[] charsetCommand;
 
     /**
      * Create new instance of EscPosCharsetEncoding.
